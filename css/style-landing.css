@@ -1690,7 +1690,6 @@ footer img {
 /* 全面 RWD 優化 (針對390px) */
 @media screen and (max-width: 1200px) {
 .testimonials{
-    overflow: hidden;
     perspective: 0px;
 }
 }
@@ -1723,7 +1722,6 @@ footer img {
 
     /* 圖片與文字 */
     .testimonials{
-        overflow: hidden;
         perspective: 0px;
     }
     .home-container, .service-item, .testimonials, .step, .counters .number {
