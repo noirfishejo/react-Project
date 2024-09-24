@@ -1357,8 +1357,6 @@ footer img {
     height: 20px;
 }
 
-
-
 @media (max-width: 600px) {
     footer {
         flex-direction: column;
@@ -1367,10 +1365,6 @@ footer img {
         display: none;
     }
 }
-
-
-
-
 
 /* 輪播卡片 */
 
@@ -1652,8 +1646,6 @@ footer img {
     z-index: 4;
 }
 
-
-
 /* gif loading */
 .loader-container {
     position: fixed;
@@ -1682,19 +1674,11 @@ footer img {
     visibility: visible;
 }
 
-
-
-
-
-
-
-
-
 /* 全面 RWD 優化 (針對390px) */
 @media screen and (max-width: 1200px) {
-.testimonials{
-    perspective: 0px;
-}
+    .testimonials {
+        perspective: 0px;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -1714,7 +1698,8 @@ footer img {
         margin: 5px 0;
     }
 
-    .login-btn, .search-btn button {
+    .login-btn,
+    .search-btn button {
         font-size: 1.4rem;
         padding: 10px 20px;
     }
@@ -1724,10 +1709,14 @@ footer img {
     }
 
     /* 圖片與文字 */
-    .testimonials{
+    .testimonials {
         perspective: 0px;
     }
-    .home-container, .service-item, .testimonials, .step, .counters .number {
+    .home-container,
+    .service-item,
+    .testimonials,
+    .step,
+    .counters .number {
         width: 100%;
         margin: 0 auto;
     }
@@ -1736,20 +1725,25 @@ footer img {
         width: 100%;
     }
 
-    .service-item h3, .counters .number span {
+    .service-item h3,
+    .counters .number span {
         font-size: 1.8rem;
     }
 
-    .service-item p, .counters .number span {
+    .service-item p,
+    .counters .number span {
         font-size: 1.4rem;
     }
 
-    .step h3, .context p {
+    .step h3,
+    .context p {
         font-size: 1.4rem;
     }
 
     /* 卡片與 FAQ */
-    .EScards, .slider, .testimonials {
+    .EScards,
+    .slider,
+    .testimonials {
         width: 100%;
         padding: 10px;
     }
@@ -1773,7 +1767,9 @@ footer img {
     }
 
     /* 按鈕與輸入框 */
-    .login-form input, .login-form button, .social-login button {
+    .login-form input,
+    .login-form button,
+    .social-login button {
         font-size: 1.2rem;
         padding: 10px;
         margin-bottom: 10px;
@@ -1798,5 +1794,3 @@ footer img {
         padding: 10px 20px;
     }
 }
-
-
