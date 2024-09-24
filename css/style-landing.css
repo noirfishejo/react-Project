@@ -1174,6 +1174,7 @@ html *::after {
     justify-content: center;
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 
 #experience_sharing h2 {
