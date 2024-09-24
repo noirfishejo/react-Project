@@ -1677,3 +1677,43 @@ footer img {
     opacity: 1;
     visibility: visible;
 }
+
+
+
+
+
+
+
+
+
+
+/* 響應式設計的媒體查詢 */
+@media  (max-width: 768px) {
+    .slider {
+        max-width: 90%;
+    }
+
+    .mycard {
+        max-width: 280px;
+    }
+
+    .testimonials {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 480px) {
+    .mycard {
+        max-width: 100%;
+    }
+
+    .slider {
+        max-width: 100%;
+    }
+
+    .testimonials {
+        flex-direction: column;
+    }
+}
+
+
