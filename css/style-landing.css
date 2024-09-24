@@ -1219,13 +1219,6 @@ html *::after {
     object-fit: cover;
 }
 
-/* 
-.heart{
-    width: 80%;
-    height: auto;
-    padding: 16px;
-} */
-
 .context-box {
     height: auto;
     /* width: 180px; */
@@ -1363,6 +1356,9 @@ footer small {
 footer img {
     height: 20px;
 }
+
+
+
 @media (max-width: 600px) {
     footer {
         flex-direction: column;
@@ -1371,6 +1367,10 @@ footer img {
         display: none;
     }
 }
+
+
+
+
 
 /* 輪播卡片 */
 
@@ -1651,6 +1651,9 @@ footer img {
 #t-5:checked ~ .testimonials label[for="t-5"] {
     z-index: 4;
 }
+
+
+
 /* gif loading */
 .loader-container {
     position: fixed;
@@ -1782,17 +1785,13 @@ footer img {
     }
 
     /* 間距與排版 */
-    /* body {
+    body {
         padding: 0 10px;
-    } */
+    }
 
-    /* section, .content-container {
-        padding: 10px 0;
-    } */
-
-    /* .service-item {
+    .service-item {
         padding: 10px;
-    } */
+    }
 
     .readmore-btn button {
         font-size: 1.4rem;
