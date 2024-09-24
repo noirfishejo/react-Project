@@ -1395,10 +1395,12 @@ footer img {
     min-height: 280px;
     perspective: 500px;
     width: auto;
+    min-width: 225px;
 }
 
 .testimonials .item {
     max-width: 225px;
+    min-width: 225px;
     height: auto;
     border-radius: 1.5rem;
     border-width: 2px;
