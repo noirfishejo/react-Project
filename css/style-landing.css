@@ -1686,70 +1686,119 @@ footer img {
 
 
 
-
-/* 響應式設計的媒體查詢 */
+/* 全面 RWD 優化 (針對390px) */
 @media screen and (max-width: 1200px) {
-    .slider {
-        max-width: 90%;
-    }
-
-    .mycard {
-        max-width: 280px;
-    }
-
-    .testimonials {
-        flex-direction: column;
-        perspective: 200px;
-    }
+.testimonials{
+    overflow: hidden;
+    perspective: 0px;
+}
 }
 
-@media screen and (max-width: 800px) {
-    .slider {
-        max-width: 80%; /* 確保寬度足夠避免溢出 */
+@media screen and (max-width: 390px) {
+    /* 導覽列和按鈕 */
+    header {
+        padding: 10px;
     }
 
-    .mycard {
-        max-width: 260px; /* 稍微縮小卡片寬度 */
-        box-sizing: border-box;
-    }
-
-    .testimonials {
+    .navbar {
+        display: flex;
         flex-direction: column;
-        perspective: 200px;
+        align-items: center;
     }
-}
 
-@media screen and (max-width: 700px) {
-    .slider {
-        max-width: 100%; /* 確保 slider 佔據全螢幕 */
+    .navbar .nav-menu {
+        font-size: 1.4rem;
+        margin: 5px 0;
+    }
+
+    .login-btn, .search-btn button {
+        font-size: 1.4rem;
+        padding: 10px 20px;
+    }
+
+    .logo img {
+        width: 80%;
+    }
+
+    /* 圖片與文字 */
+    .testimonials{
+        overflow: hidden;
+        perspective: 0px;
+    }
+    .home-container, .service-item, .testimonials, .step, .counters .number {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .home-images-logo img {
+        width: 100%;
+    }
+
+    .service-item h3, .counters .number span {
+        font-size: 1.8rem;
+    }
+
+    .service-item p, .counters .number span {
+        font-size: 1.4rem;
+    }
+
+    .step h3, .context p {
+        font-size: 1.4rem;
+    }
+
+    /* 卡片與 FAQ */
+    .EScards, .slider, .testimonials {
+        width: 100%;
+        padding: 10px;
     }
 
     .mycard {
-        max-width: 100%; /* 卡片佔據整個螢幕寬度，避免爆版 */
+        max-width: 100%;
         padding: 15px;
-        box-sizing: border-box;
     }
 
-    .testimonials {
-        flex-direction: column;
-        perspective: 200px;
+    .faq .select-menu .select-btn {
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+
+    .faq .options .option p {
+        font-size: 1.2rem;
+    }
+
+    .faq h2 {
+        font-size: 2rem;
+    }
+
+    /* 按鈕與輸入框 */
+    .login-form input, .login-form button, .social-login button {
+        font-size: 1.2rem;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .login-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    /* 間距與排版 */
+    body {
+        padding: 0 10px;
+    }
+
+    section, .content-container {
+        padding: 10px 0;
+    }
+
+    .service-item {
+        padding: 10px;
+    }
+
+    .readmore-btn button {
+        font-size: 1.4rem;
+        padding: 10px 20px;
     }
 }
-
-@media screen and (max-width: 480px) {
-    .mycard {
-        max-width: 100%; /* 卡片在手機裝置上佔滿寬度 */
-        box-sizing: border-box;
-    }
-
-    .slider {
-        max-width: 100%; /* 滑動區塊佔滿寬度 */
-    }
-
-    .testimonials {
-        flex-direction: column;
-        perspective: 200px;
-    }
-}    
 
 
