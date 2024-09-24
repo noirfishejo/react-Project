@@ -254,7 +254,7 @@ header {
 }
 @media (max-width: 600px) {
     #home {
-        height: 50vh;
+        height: 35vh;
     }
 }
 
@@ -359,7 +359,7 @@ header {
 }
 @media (max-width: 600px) {
     #problems {
-        height: 50vh;
+        height: 40vh;
     }
 }
 
@@ -1677,3 +1677,79 @@ footer img {
     opacity: 1;
     visibility: visible;
 }
+
+
+
+
+
+
+
+
+
+
+/* 響應式設計的媒體查詢 */
+@media screen and (max-width: 1200px) {
+    .slider {
+        max-width: 90%;
+    }
+
+    .mycard {
+        max-width: 280px;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        perspective: 200px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .slider {
+        max-width: 80%; /* 確保寬度足夠避免溢出 */
+    }
+
+    .mycard {
+        max-width: 260px; /* 稍微縮小卡片寬度 */
+        box-sizing: border-box;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        perspective: 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .slider {
+        max-width: 100%; /* 確保 slider 佔據全螢幕 */
+    }
+
+    .mycard {
+        max-width: 100%; /* 卡片佔據整個螢幕寬度，避免爆版 */
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        perspective: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mycard {
+        max-width: 100%; /* 卡片在手機裝置上佔滿寬度 */
+        box-sizing: border-box;
+    }
+
+    .slider {
+        max-width: 100%; /* 滑動區塊佔滿寬度 */
+    }
+
+    .testimonials {
+        flex-direction: column;
+        perspective: 200px;
+    }
+}    
+
+
