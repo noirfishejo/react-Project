@@ -210,6 +210,7 @@ window.addEventListener('resize', moveProfilePhoto);
 // 初始化和监听窗口调整事件
 moveContent();
 window.addEventListener('resize', moveContent);
+window.addEventListener('load', moveContent);
 
 
 document.addEventListener('DOMContentLoaded', () => {

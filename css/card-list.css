@@ -25,6 +25,12 @@ body{
     height: fit-content;
 }
 
+@media(max-width:480px){
+    .reset-filter{
+        display: none;
+    }
+}
+
 input[type=checkbox] {
     cursor: pointer;
     background-color: rgb(249, 249, 249);
