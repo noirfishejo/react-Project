@@ -1176,6 +1176,7 @@ html *::after {
     text-align: center;
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
 #experience_sharing h2 {
